@@ -1,0 +1,22 @@
+div.container {
+  position: relative;
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  cursor: pointer;
+}
+div.box {
+  position: absolute;
+  background: darkcyan;
+  width: 100px;
+  height: 100px;
+
+  cursor: pointer;
+  opacity: 0.01;
+}
+div.box:active {
+  background-color: red;
+  opacity: 1;
+  transition: all 0.5s;
+  transform: translate(100px, 200px);
+}
